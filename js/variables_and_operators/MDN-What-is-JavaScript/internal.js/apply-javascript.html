@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply JavaScript example</title>
+</head>
+<body>
+    <button>Click me</button>
+    <script>
+        // JavaScript goes here
+        function updateName() {
+            const name = prompt("Enter a new name");
+            button.textContent = `Player 1: ${name}`;
+        }
+
+        const button = document.querySelector("button");
+
+        button.addEventListener("click", updateName);
+    </script>
+</body>
+</html>
