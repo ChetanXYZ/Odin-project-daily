@@ -1,0 +1,2 @@
+Everything in CSS is a box be it text a div a paragraph everything is a box. 
+we get the height from adding height defined to the contents with padding and the border added together, margin is not accounted for height in the box model.

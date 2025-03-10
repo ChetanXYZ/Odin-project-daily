@@ -1,0 +1,40 @@
+
+.container {
+    display: flex;
+}
+
+.container div {
+    background-color: azure;
+    border: 4px solid grey;
+    height: 100px;
+    width: 200px;
+    /* flex: none;      */
+    /* flex: 2; */
+    /* flex: auto; */
+    /* flex: 10em;  */
+    /* flex: 30%; */
+    /* flex: min-content;  */
+    /* flex-basis: 100px; */
+
+    /* Three values: flex-grow | flex-shrink | flex-basis */
+
+    /* flex: 0 0 300px; */
+    /* flex: 2 2; */
+    /* flex: 2 2 10%;  */
+
+    /* Global values */
+
+    /* flex: inherit; */
+    /* flex: initial; */
+    /* flex: revert; */
+    /* flex: revert-layer; */
+    /* flex: none; */
+    flex-basis: 300px;
+}
+
+
+
+
+
+
+

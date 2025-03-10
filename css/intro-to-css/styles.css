@@ -1,0 +1,34 @@
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
+
+.subsection.preview {
+    color: gold;
+}
+
+.ancestor .descendent{
+    color: red;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.a {
+    /* hex example: */
+    color: #1100ff;
+}
+
+.b {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+}
+
+.c {
+    /* hex example:  */
+    color: hsl(15, 82%, 56%);
+}

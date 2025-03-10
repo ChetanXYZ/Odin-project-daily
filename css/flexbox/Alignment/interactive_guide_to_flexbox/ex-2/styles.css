@@ -1,0 +1,27 @@
+.container {
+    height: 500px;
+    background-color: black;
+    border: 10px solid hotpink;
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.main {
+    height: 50px;
+    width: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 5px solid white;
+    background: grey;
+}
+
+.item-1 {
+    align-self: center;
+}
+
+.item-2 {
+    align-self: flex-end;
+}

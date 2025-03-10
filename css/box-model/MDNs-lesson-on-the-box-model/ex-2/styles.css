@@ -1,0 +1,154 @@
+/* body {
+    font-family: sans-serif;
+}
+
+p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span, 
+li {
+    border: 2px solid blue;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.box1 {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.box2 {
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.standard {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+  
+.alternate {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    box-sizing: border-box;
+    width: 390px;
+    height: 240px;
+    margin: 40px;
+}
+
+.container {
+    border: 5px solid blue;
+    margin: 40px; 
+} */
+  
+/* .box-4 {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 10px;
+    height: 100px; */
+    /* try changing the margin properties: */
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+} */
+
+/* .container {
+    border: 5px solid blue;
+    margin: 40px;
+}
+
+p {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.one {
+    margin-bottom: 50px;
+}
+
+.two {
+    margin-top: -40px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 40px;
+    padding: 20px;
+    border-top: 5px dotted green;
+    border-right: 1px solid black;
+    border-bottom: 20px double rgb(23 45 145);
+}
+
+.box {
+    padding: 20px; 
+    background-color: lightgray;
+    border: 1px solid #333333;
+    border-top-style: dotted;
+    border-right-width: 20px;
+    border-bottom-color: hotpink;
+
+}
+
+.container-2 {
+    margin: 40px;
+    padding: 20px;
+    border-top: 20px dashed green;
+    border-right: 20px dashed black;
+    border-bottom: 20px dashed rgb(23 45 145);
+    border-left: 20px dashed red;
+}
+
+.box-2 {
+    padding: 20px; 
+    background-color: lightgray;
+    border: 1px double #333333;
+    border-top-style: dashed;
+    border-right-width: 20px;
+    border-bottom-color: hotpink;
+
+} */
+
+body {
+    font-family: sans-serif;
+  }
+  .box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+  }
+  
+  .container {
+    border: 5px solid blue;
+    margin: 40px;
+    padding: 20px;
+  }
+  
