@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: azure;
+        font-size: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        color: black;
+        background-color: red;
+        margin: auto;
+        font-size: 100px;
+        align-self: center;
+        padding: 80px;
+    }
+
+</style>
+<body>
+    
+    <button>Start machine</button>
+    <p>The machine is stopped.</p>
+    <script>
+        const btn = document.querySelector("button");
+        const txt = document.querySelector("p");
+
+        btn.addEventListener("click", updateBtn);
+
+        function updateBtn() {
+        if (btn.textContent === "Start machine") {
+            btn.textContent = "Stop machine";
+            txt.textContent = "The machine has started!";
+        } else {
+            btn.textContent = "Start machine";
+            txt.textContent = "The machine is stopped.";
+        }
+        }
+    </script>
+    
+    <!-- <script>
+
+        let x = 5;
+        let y = 5;
+        let z = 10;
+        console.log(x === y);
+        console.log(x === y + 4);
+        console.log(x !== y);
+        console.log(x !== y + 4);
+        console.log(z < y);
+        console.log(z > y);
+        console.log(x <= y);
+        console.log(x >= y);
+        console.log(z <= x + y);
+        console.log(z <= x - y);
+        console.log(z >= x);
+
+    </script> -->
+    
+</body>
+</html>
