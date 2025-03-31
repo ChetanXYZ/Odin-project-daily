@@ -1,0 +1,19 @@
+.button {
+    height: 100px;
+    width: 500px;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: greenyellow;
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.button:hover, button:active {
+    box-shadow: 12px 4px 12px 4px rgba(0,0,0,0.74);
+    bottom: 18px;
+}

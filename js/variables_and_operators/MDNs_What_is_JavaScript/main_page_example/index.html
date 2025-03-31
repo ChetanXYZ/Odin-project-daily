@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>What is JavaScript?</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <script src="javascripts.js"></script> -->
+    </head>
+    <body>
+
+        <button type="button">Player 1: Chris</button>
+        <script>
+            function updateName() {
+            const name = prompt("Enter a new name");
+            button.textContent = `Player 1: ${name}`;
+            }
+
+            const button = document.querySelector("button");
+
+            button.addEventListener("click", updateName);
+        </script>
+
+    </body>
+</html>
