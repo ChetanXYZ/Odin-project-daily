@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <p>This is a line </p> -->
+
+    <script>
+
+        // let carName1 = "Volvo XC60";
+        // let carName2 = "Volvo XC60";
+        // console.log(carName1);
+        // console.log(carName2);
+        // console.log(carName1, carName2);
+
+    </script>
+
+    <script>
+
+        // Practice of .at() String method of manipulation.
+        // let carName1 = "Volvo XC90";
+        // console.log(carName1.at(0));
+        // console.log(carName1.at(5));
+        // console.log(carName1.at(6));
+        // console.log(carName1.at(10));
+        // console.log(carName1.at(24));
+
+        // let edge_case = "Storage configuration 1" 
+        // let chars1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        // console.log(edge_case.length);
+        // console.log(edge_case.at(22));
+        // console.log(chars1.length);
+        // console.log(chars1.at(26));
+
+        // let str = "JavaScriptRocks";
+        // console.log(str.length);
+        // console.log(str.length -1);
+        // console.log(str.at(0));
+        // console.log(str.at(14));
+        // console.log(str.at(-1));
+        // console.log(str.at(13));
+        // console.log(str.at(-2));
+        // console.log(str.at(str.length));
+        // console.log(str.charAt(4));
+        // console.log(str.at(4));
+
+        // let text = "₹";
+        // let text2 = "A";
+        // let text3 = "1";
+        // let text4 = "This is a text that I'm writing";
+        // let text5 = "g";
+        // console.log(text.charCodeAt());
+        // console.log(text2.charCodeAt());
+        // console.log(text3.charCodeAt());
+        // console.log(text4.codePointAt(3));
+        // console.log(text4.charCodeAt(3));
+
+        // let emoji = "❤";
+        // console.log(emoji.codePointAt());
+
+        // concat()
+
+        // let string1 = "My";
+        // let string2 = "House";
+        // console.log(string1.concat(string2));
+        // console.log(string1.concat(" ", string2));
+
+        // let text = "A";
+        // let text2 = "B";
+        // console.log(text + " " + text2);
+
+        // let greeting = "Hello";
+        // let name = "Teja";
+        // let display = greeting.concat(" ", name);
+        // console.log(display);
+
+        // let greeting = "Hello";
+        // let name = "Jose";
+        // let aboutMe = "Accounts coordinator.";
+        // let interest = "helping people.";
+        // let message = name.concat(" is a ", aboutMe);
+        // console.log(message);
+        // console.log(message.constructor);
+
+        // // console.log(greeting + " " + name);
+        // // console.log(name + " is a " + aboutMe);// using the '+' method. 
+        // // console.log(name.concat(" loves"),(interest));
+
+        // let decision = "Neha is leaving office";
+        // let display = decision.constructor;
+        // console.log(display);
+
+        // let line1 = "Rose is red";
+        // let line2 = "Sky is blue";
+        // let line3 = "Honey is sweet";
+        // let line4 = "And so are you";
+        // console.log(line1.endsWith("red"));
+        // console.log(line2.endsWith("And"));
+        // console.log(line3.endsWith("sweet"));
+
+        // let statement = "Hello world, welcome to the universe";
+        // console.log(statement.endsWith("universe"));
+        // console.log(statement.endsWith("world"));
+
+        // let code = String.fromCharCode(65);
+        // let code1 = String.fromCharCode(72, 69, 76, 76, 79);
+        // console.log(code1);
+        // let question = String.fromCharCode(57,68,61,74,20,69,73,20,74,68,65,20,65,61,69,67,20,66,20,69,66,65,)
+        // console.log(question);
+        // let message = String.fromCharCode(97);
+        // console.log(message);
+        // let message2 = String.fromCharCode(72, 101,108, 108, 111);
+        // console.log(message2);
+
+        // let get = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+        // console.log(get.length);
+        // console.log(get.charCodeAt(25));
+        // console.log(get.charCodeAt(13));
+        // console.log(get.charCodeAt(0));
+        // console.log(get.charCodeAt(9));
+
+        // let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+        // let quote = "This World Is Your Oyster.";
+        // let text = quote.includes("World");
+        // let text2 = quote.includes("Blue");
+        // let text3 = quote.includes("world");
+        // let text4 = quote.includes("Is", 4);
+        // let text5 = "Hello world, welcome to the universe.";
+        // // console.log(text, text2, text3);
+        // // console.log(text4);
+        // // console.log(text6);
+        // let text7 = text5.indexOf("welcome");
+        // console.log(text7);
+
+        // let text = "Hello world, welcome to the universe.";
+        // let display = text.indexOf("welcome");
+        // console.log(display);
+        // console.log(text.indexOf("to"));
+        // console.log(text.indexOf("the"));
+        // console.log(text.indexOf(" "));
+        // console.log(text.indexOf("e"));
+        // console.log(text.indexOf("o", 5));
+        // console.log(text.indexOf("u"));
+        // console.log(text.indexOf("z"));
+        // console.log(text.indexOf("U"));
+
+        // let text = "Hello planet earth, you are a great planet.";
+        // let text2 = "Indeed you are."
+        // let result = text.lastIndexOf("planet"); 
+        // let display = text.lastIndexOf("you");
+        // console.log(result);
+        // console.log(display);
+
+        // let text1 = "ab";
+        // let text2 = "cd";
+        // let text3 = "ab";
+        // let text4 = "ba";
+        // let display = text1.localeCompare(text2);
+        // let display2 = text1.localeCompare(text3);
+        // let display3 = text1.localeCompare(text4);
+        // console.log(display, display2, display3);
+
+        // let text1 = "efgh";
+        // let text2 = "abcd";
+        // let text3 = "efgh";
+        // let text4 = "ijkl";
+        // let display1 = text1.localeCompare(text2);
+        // let display2 = text1.localeCompare(text3);
+        // let display3 = text1.localeCompare(text4);
+        // console.log(display1);
+        // console.log(display2);
+        // console.log(display3);
+
+        //match
+        // let text = "The rain is SPAIN stays mainly in the plain";
+        // let search = text.match("ain");
+        // let search_regular_expression = text.match(/ain/);
+        // let search_global = text.match(/ain/g);
+        // let search_case_sensitive = text.match(/ain/gi);
+        // let search_null_return = text.match(/return/);
+
+        // console.log(search);
+        // console.log(search_regular_expression);
+        // console.log(search_global);
+        // console.log(search_case_sensitive);
+        // console.log(search_null_return);
+
+        //padEnd()
+        // let text = "5";
+        // let display = text.padEnd(4, "0"); 
+        // let display2 = text.padEnd(4, "x");
+        // let display3 = text.padEnd(8, "x");
+        // console.log(display);
+        // console.log(display2);
+        // console.log(display3);
+        
+        //pddStart()
+        // let text = "9";
+        // let padded = text.padStart(4, "0");
+        // let padded2 = text.padStart(5, "X");
+        // console.log(padded);
+        // console.log(padded2);
+
+        //prototype()
+        // function employee(name, jobtitle, born) {
+        //     this.name = name;
+        //     this.jobtitle = jobtitle;
+        //     this.born = born;
+        // }
+        // employee.prototype.salary = 2000;
+        // employee.prototype.wife = "Wilma";
+
+        // const fred = new employee("Fred Flinstone", "Caveman", 1970);
+        // console.log(fred.salary);
+        // console.log(fred.wife);
+
+        //repeat()
+        // let objective = "Visit Microsoft";
+        // let post = objective.replace("Microsoft", "MDN_Docs");
+        // console.log(post);
+
+        //replace()
+        // let os = "Windows is good operating system to begin with. Everybody should learn the Windows operating system if they want to become proficient at using computers";
+        // let post = os.replace(/Windows/g, "Ubuntu");
+        // console.log(os);
+        // console.log("replaced with")
+        // console.log(post);
+
+        //search()
+        let text = "Mr. Blue lives in a blue house.";
+        let text2 = "Mr. Blue has a blue house";
+        let position = text.search("house");
+        let position_2 = text2.search("house");
+        let position_3 = text.search(/blue/);
+        let position_4 = text.search(/Blue/);
+        let position_5 = text.search(/blue/i);
+        let position_6 = text.search("red");
+        console.log(position);
+        console.log(position_2);
+        console.log(position_3);
+        console.log(position_4);
+        console.log(position_5);
+        console.log(position_6);
+
+       
+    </script>
+    
+</body>
+</html>
