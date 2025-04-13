@@ -8,33 +8,33 @@
 <body>
     <script>
 
-        // console.log( true || true );
-        // console.log( false || true );
-        // console.log( true || false );
-        // console.log( false || false );
+        console.log( true || true );
+        console.log( false || true );
+        console.log( true || false );
+        console.log( false || false );
 
-        // if ( 1 || 0 ) {
-        //     console.log( "truthy!" );
-        //     console.log( 'truthy!' );
-        // }
+        if ( 1 || 0 ) {
+            console.log( "truthy!" );
+            console.log( 'truthy!' );
+        }
 
-        // if ( 3 || 1 ) {
-        //     console.log( "something!" );
-        // }
+        if ( 3 || 1 ) {
+            console.log( "something!" );
+        }
 
-        // let hour = 9;
+        let hour = 9;
 
-        // if (hour < 10 || hour > 18) {
-        //     console.log( 'The Office is closed.' );
-        //     alert( 'The Office is closed.' );
-        // } 
+        if (hour < 10 || hour > 18) {
+            console.log( 'The Office is closed.' );
+            alert( 'The Office is closed.' );
+        } 
 
-        // let hour = 12;
-        // let isWeekend = true;
+        let hour = 12;
+        let isWeekend = true;
 
-        // if (hour < 10 || hour > 18 || isWeekend) {
-        //     console.log( 'The Office is closed.' );
-        // }
+        if (hour < 10 || hour > 18 || isWeekend) {
+            console.log( 'The Office is closed.' );
+        }
 
         console.log( 1 || 0 );
 
@@ -43,7 +43,14 @@
 
         console.log( undefined || null || 0 ); 
 
+        let firstName = 0;
+        let lastName = 0;
+        let nickName = "rick";
 
+        // console.log(firstName || lastName || nickName || "Anonymous");
+
+        true || console.log("not printed");
+        false || console.log("printed");
 
     </script>
 </body>
