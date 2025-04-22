@@ -4,5 +4,3 @@ const string3 = "Yet another string primitive";
 const string4 = string1 + "\n" + string2 + "\n"+ string3; 
 
 console.log(string4);
-
-
