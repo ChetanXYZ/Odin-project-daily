@@ -1,1 +1,41 @@
-/* styles.css */
+/* Selectors */
+
+/* Universal selector */
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Type selector */
+
+div {
+    color: hotpink;
+}
+
+p {
+    color: rebeccapurple; 
+    font-size: 100px;
+}
+
+/* Class selector */
+
+.alert-text {
+    color: red; 
+    font-size: 50px;
+}
+
+.Today {
+    color: goldenrod;
+}
+
+#title {
+    color: black;
+    background-color: red;
+}
+
+#quote1 {
+    font-size: 80px;
+    font-style: italic;
+    background-color: gold;
+    color: white;
+}
+
