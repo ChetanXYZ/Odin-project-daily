@@ -39,3 +39,65 @@ p {
     color: white;
 }
 
+/* Several unique declarations */
+/* .read {
+    color: magenta;
+    background-color: black;
+    font-size: 60px;
+}
+
+.unread {
+    color: magenta;
+    background-color: black;
+    font-size: 60px;
+} */
+
+.read,
+.unread {
+    color: magenta;
+    background-color: black;
+    font-size: 60px;
+}
+
+.subsection {
+    color: lavender;
+    background-color: gray;
+    font-size: 50px;
+}
+
+.subsection.header {
+    color: red;
+}
+
+.subsection2 {
+    color: brown;
+}
+
+.subsection2#review {
+    color: orange;
+}
+
+.ancestor .contents {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.paint,
+.paint2,
+.paint3 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.paint {
+    /* hex example */
+    color: #1100ff;
+}
+
+.paint2 {
+    color: rgb(100, 0, 127);
+}
+
+.paint3 {
+    color: hsl(15, 82%, 56%);
+}
